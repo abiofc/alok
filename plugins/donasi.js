@@ -1,8 +1,8 @@
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 let text = `
 ┌─「 Donasi • Pulsa 」
-│ • *Telkomsel:* [${global.ppulsa}]
-
+│ • *Axis:* [${global.ppulsa}]
+│.• *Smartfren:* 088232154376
 `
 const templateButtons = [
     {index: 1, urlButton: {displayText: '✨ Saweria', url: psaweria}},
